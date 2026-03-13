@@ -1,0 +1,13 @@
+body {
+    font-family: "Iosevka Charon Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comment{
+    margin: 30px 10px;
+    border: 2px double darkblue;
+    border-radius: 10px;
+    background: rgb(185, 226, 226);
+    padding: 10px;
+}
