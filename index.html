@@ -18,7 +18,7 @@
 </head>
 
 <body class="bg-[url(assets/background.jpg)] bg-cover">
-    <section class="comment-display w-[90%] md:w-[80%] mx-auto my-20 text-justify">
+    <section id="comment-container" class="comment-display w-[90%] md:w-[80%] mx-auto my-20 text-justify">
         <h1 class="font-extrabold text-3xl ml-2 ">Comment Box</h1>
         <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatibus asperiores omnis
             hic impedit magnam nesciunt. Voluptatum obcaecati debitis at illum possimus labore rerum totam, eius harum!
@@ -33,16 +33,16 @@
             similique reiciendis velit, ipsa inventore explicabo. Pariatur sint eaque quos, explicabo asperiores facilis
             minima libero, rerum a amet recusandae eos quod iste beatae.</p>
     </section>
-    <section id="comment-input" class="comment-display w-[90%] md:w-[80%] mx-auto my-20 text-justify">
-        <textarea name="" id="" cols="48" rows="5" class="ml-2 p-2 rounded-2xl border-2 border-black justify-center items-center" placeholder="Enter Your Comment!!!"></textarea>
+    <section  class="comment-display w-[90%] md:w-[80%] mx-auto my-20 text-justify">
+        <textarea name="" id="comment-input" cols="48" rows="5"
+            class="ml-2 p-2 rounded-2xl border-2 border-black justify-center items-center"
+            placeholder="Enter Your Comment!!!"></textarea>
         <br>
         <button
-            class="p-2 w-30 bg-green-500 border-2 border-amber-400 hover:bg-amber-400 hover:border-green-500 rounded-2xl text-2xl font-extrabold ml-2 ">Post</button>
+           id="post-btn" class="p-2 w-30 bg-green-500 border-2 border-amber-400 hover:bg-amber-400 hover:border-green-500 rounded-2xl text-2xl font-extrabold ml-2 ">Post</button>
     </section>
+    <script src="./lib/script/comment.js"></script>
 
-    <style>
-
-    </style>
 </body>
 
 </html>
