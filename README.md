@@ -1,24 +1,3 @@
-git clone https://github.com/Toukir048/comment-box-design.git
-    ```
-2.  Navigate to the project folder:
-    ```bash
-    cd comment-box-design
-    ```
-3.  Open `index.html` in your preferred browser to view the design.
-
-## Usage
-You can copy the HTML and CSS blocks directly into your project. Ensure that any linked stylesheets or scripts are properly referenced in your document's `<head>` or `<body>` sections.
-
-## Contributing
-Contributions are welcome! If you have suggestions for improvements or want to add new features, please feel free to:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a Pull Request.
-
-## License
-Here is a template you can use for your project's `README.md` file. It is structured to be professional, clear, and easy for other developers to understand.
 
 ***
 
